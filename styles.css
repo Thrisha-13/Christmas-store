@@ -1,24 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Rancho&display=swap');
 
-svg{
-  width: 25px;
-  height: 25px;
+.nav{
+  color: white;
 }
-.heading{
-  font-family: "Rancho", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 60px;
+a{
+  text-decoration: none;
+  color: white;
 }
-.desc{
-  font-size: 20px;
-  line-height: 30px;
+.background-image{
+  background-image: url('images/bg4.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
-a:hover{
-  background-color: green;
+.container{
+  text-wrap: wrap;
+  padding-top: 15%;
 }
-.service-icon{
-  width: 80px;
+.desc ,
+.h1{
+  width: 50%;
+}
+.scrolling-wrapper {
+  overflow-x:scroll;
+  white-space: nowrap;
+}
+.card {
+  display: inline-block;
+  width: 100%;
+  margin-right: 30px/* Adjust as needed */
 }
 
-  
