@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <ul class="nav nav-pills fixed-top p-3  justify-content-center bg-danger text-light" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link text-light " data-bs-toggle="pill" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" data-bs-toggle="pill" href="#Gifts">Gifts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light active" data-bs-toggle="pill" href="#menu2">Shop All</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" data-bs-toggle="pill" href="#menu2">Contact Us</a>
+      </li>
+      <!--<ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cart</a>
+          <span class="badge rounded-pill bg-secondary"><p class="cart_quantity"></p></span>
+        </li>
+      </ul>-->
+    </ul>
+   
+    <div class="container-fluid mt-5 p-5 products">
+      <p class="h2 p-3 align-item-center"><i>ALL PRODUCTS</i></p>
+      <div class="row mb-5 ">
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="images/shop_img3.webp" alt="Card image">
+            <div class="card-body">
+              <p class="card-text">Christmas Tree</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="images/shop_img1.webp" alt="Card image">
+            <div class="card-body">
+              <p class="card-text">Christmas Tree</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" >
+            <img class="card-img-top" src="images/shop_img2.webp" alt="Card image">
+            <div class="card-body">
+              <p class="card-text">Christmas Tree</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="images/shop_img4.webp" alt="Card image">
+            <div class="card-body">
+              <p class="card-text">Decore Light</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="images/shop_img5.webp" alt="Card image">
+            <div class="card-body">
+              <p class="card-text">Decore Light</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="images/shop_img6.webp" alt="Card image">
+            <div class="card-body">
+              <p class="card-text">Golden decor light</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" >
+            <img class="card-img-top" src="images/shop_img7.webp" alt="Card image">
+            <div class="card-body">
+              <p class="card-text">Blue decor light</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="images/shop_img8.webp" alt="Card image">
+            <div class="card-body">
+              <p class="card-text">Red decor light</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="images/shop_img9.webp" alt="Card image">
+            <div class="card-body">
+              <p class="card-text">Decor light</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="card-img-top" src="images/shop_img10.webp" alt="Card image">
+            <div class="card-body">
+              <p class="card-text">Some example text.</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" >
+            <img class="card-img-top" src="images/shop_img11.webp" alt="Card image">
+            <div class="card-body">
+              <p class="card-text">Some example text.</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" >
+            <img class="card-img-top" src="images/shop_img12.webp" alt="Card image">
+            <div class="card-body">
+              <p class="card-text">Some example text.</p>
+              <a href="#" class="btn btn-primary" onclick=" cartQuantity()">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    </div>
+
+    <script>
+      function cartQuantity(){
+        let CartQuantity =0;
+        cartQuantity += 1;
+        document.querySelector('.cart_quantity').innerHTML=` ${cartQuantity}`;
+      }
+    </script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    -->
+    
+</html>
